@@ -106,6 +106,6 @@ public class EntityDress implements Comparable<EntityDress> {
 
     @Override
     public int compareTo(EntityDress other) {
-        return Double.compare(other.price, this.price);
+        return Double.compare(this.price, other.price);
     }
 }
